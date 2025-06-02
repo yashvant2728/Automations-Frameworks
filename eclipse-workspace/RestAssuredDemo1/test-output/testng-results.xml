@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-02T12:32:58 IST" name="Default suite" finished-at="2025-06-02T12:33:03 IST" duration-ms="5025">
+    <groups>
+    </groups>
+    <test started-at="2025-06-02T12:32:58 IST" name="Default test" finished-at="2025-06-02T12:33:03 IST" duration-ms="5025">
+      <class name="DemoTests.TestOne">
+        <test-method is-config="true" signature="setReportprops()[pri:0, instance:DemoTests.TestOne@130d63be]" started-at="2025-06-02T12:32:58 IST" name="setReportprops" finished-at="2025-06-02T12:32:59 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportprops -->
+        <test-method signature="checkRestApis()[pri:0, instance:DemoTests.TestOne@130d63be]" started-at="2025-06-02T12:32:59 IST" name="checkRestApis" finished-at="2025-06-02T12:33:03 IST" duration-ms="3988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRestApis -->
+        <test-method is-config="true" signature="getreport()[pri:0, instance:DemoTests.TestOne@130d63be]" started-at="2025-06-02T12:33:03 IST" name="getreport" finished-at="2025-06-02T12:33:03 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getreport -->
+      </class> <!-- DemoTests.TestOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
