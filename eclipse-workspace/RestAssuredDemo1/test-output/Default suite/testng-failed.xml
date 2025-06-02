@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DemoTests.TestOne">
+      <class name="DemoTests.GetAndPost">
         <methods>
-          <include name="setReportprops"/>
-          <include name="checkRestApis"/>
-          <include name="getreport"/>
+          <include name="checkGetAndPost"/>
         </methods>
-      </class> <!-- DemoTests.TestOne -->
+      </class> <!-- DemoTests.GetAndPost -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
