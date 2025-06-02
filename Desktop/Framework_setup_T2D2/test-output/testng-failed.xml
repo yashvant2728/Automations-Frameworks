@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Browser(failed)">
+    <parameter name="Browser_name" value="chrome"/>
+    <classes>
+      <class name="Test_login.test1">
+        <methods>
+          <include name="verify_log_in"/>
+          <include name="bowser_open"/>
+          <include name="verify_log_in_invalid"/>
+          <include name="tear_down_browser"/>
+        </methods>
+      </class> <!-- Test_login.test1 -->
+    </classes>
+  </test> <!-- Browser(failed) -->
+  <test thread-count="5" name="Browser_Edge(failed)">
+    <parameter name="Browser_name" value="Edge"/>
+    <classes>
+      <class name="Test_login.test1">
+        <methods>
+          <include name="verify_log_in"/>
+          <include name="bowser_open"/>
+          <include name="verify_log_in_invalid"/>
+          <include name="tear_down_browser"/>
+        </methods>
+      </class> <!-- Test_login.test1 -->
+    </classes>
+  </test> <!-- Browser_Edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->
